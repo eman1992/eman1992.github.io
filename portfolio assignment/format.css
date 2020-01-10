@@ -1,0 +1,161 @@
+.my-nav {
+position: absolute;
+z-index: 10;
+width: 100%;
+background: #f4f4f4;
+}/*
+.navbar-toggler {
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+}
+#navbarNavDropdown {
+    float: right;
+}*/
+.carousel-item {
+  height: 100%;
+  width: 100%;
+  background-position: center;
+    background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+#menubar {
+    margin: auto;
+}
+body{
+  background-color: black;
+  background: #f4f4f4!important;
+  font-family: 'Helvetica'!important, 'Arial'!important, sans-serif!important;
+}
+
+.dropdown:hover>.dropdown-menu{
+    display: block;
+}
+
+.navbar-brand {
+    margin-left: 16px;
+    padding: 0!important;
+}
+#rrlogo {
+    padding-left: 10px!important;
+}
+
+.fa {
+  margin-top: 3px;
+  margin-right: 5px;
+  padding: 12px;
+  font-size: 30px;
+  width: 48px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa:hover {
+  opacity: 0.7;
+  color: lightcyan;
+}
+.fa-facebook {
+  background: #2e2e2e;
+  color: white;
+}
+.fa-instagram {
+    background: #2e2e2e;
+    color: white;
+    margin-right: 21px;
+}
+
+#page {
+    width: auto;
+    margin: auto;
+    padding: 40px 32px;
+}
+.heading-1 {
+    
+    background-position-x: center;
+    background-position-y: bottom;
+    background-size: initial;
+    background-repeat:no-repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: initial;
+    padding-top: 50px;
+    padding-bottom: 35px;
+    text-align: center;
+    margin-bottom: 45px;
+}
+.heading-2 {
+    text-align: left;
+    padding-top: 15px;
+}
+.heading-3 {
+    text-align: left;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.button {
+    padding-top: 10px;
+    padding-bottom: 35px;
+}
+.buttontext {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'adam.cg_proregular';
+    font-size: 18px;
+    border-width: 1px;
+    border: 1px solid;
+    text-align: center;
+}
+
+.flex {
+    display: flex;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+.narrow {
+
+    margin: auto;
+}
+
+
+
+footer {
+    background-color: #2e2e2e;
+    color:#f4f4f4;
+}
+#info{
+    padding: 30px;
+}
+
+
+ul {
+    list-style: none!important;
+    padding-inline-start: 0px!important;
+}
+p.copyright {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+  div.carousel {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+    #reg {
+        float:none;
+    }
+}
